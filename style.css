@@ -1,0 +1,28 @@
+/*
+*===========BEM Legend:=========================================
+
+prefix  | meaning
+=========================
+js_     | JS style ONLY!
+b-      | BEM block
+bw-     | Wrapper
+bc-     | Container
+
+Total structure:
+BEM: prefix-block__elem-modificator
+JS:  free in accordance to appropriate let or const name
+
+*===============================================================
+*/
+
+.b-taskCard{
+    background-color: #ccc;
+    border-radius: 0.625rem;
+    box-shadow: 0 0 0.875rem 0.063rem rgb(0 0 0 / 20%);
+    padding: 1.25rem;
+    margin-bottom: 1.25rem;
+}
+
+.b-taskCard__title{
+    margin-bottom: 0.938rem;
+}
